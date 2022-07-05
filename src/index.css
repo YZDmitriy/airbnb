@@ -22,14 +22,43 @@ main {
 }
 
 .hero--photo {
-  max-width: 400px;
+  width: 800px;
   align-self: center;
 }
 
 .hero--header {
   margin-bottom: 16px;
+  padding-left: 20px;
 }
 
 .hero--text {
   margin-top: 0;
+  padding-left: 20px;
+}
+
+.grey--rei {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stars {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
 }
